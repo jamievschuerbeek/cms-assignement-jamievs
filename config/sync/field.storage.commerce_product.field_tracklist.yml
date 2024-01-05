@@ -1,0 +1,19 @@
+uuid: a8db17da-0043-4541-a5e3-9a7944541328
+langcode: en
+status: true
+dependencies:
+  module:
+    - commerce_product
+    - text
+id: commerce_product.field_tracklist
+field_name: field_tracklist
+entity_type: commerce_product
+type: text_long
+settings: {  }
+module: text
+locked: false
+cardinality: 1
+translatable: true
+indexes: {  }
+persist_with_no_fields: false
+custom_storage: false

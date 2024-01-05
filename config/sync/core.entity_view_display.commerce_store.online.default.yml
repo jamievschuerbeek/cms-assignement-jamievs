@@ -1,0 +1,65 @@
+uuid: c87e2e56-2dc3-413c-85fd-1a1674b16ff8
+langcode: en
+status: true
+dependencies:
+  config:
+    - commerce_store.commerce_store_type.online
+  module:
+    - address
+    - field_layout
+    - layout_builder
+    - layout_discovery
+third_party_settings:
+  field_layout:
+    id: layout_onecol
+    settings:
+      label: ''
+  layout_builder:
+    enabled: true
+    sections:
+      -
+        layout_id: layout_onecol
+        layout_settings:
+          label: ''
+        components:
+          f3c3e09f-8f38-42d0-b926-99a7f09e7533:
+            uuid: f3c3e09f-8f38-42d0-b926-99a7f09e7533
+            region: content
+            configuration:
+              id: 'field_block:commerce_store:online:address'
+              label_display: '0'
+              context_mapping:
+                entity: layout_builder.entity
+              formatter:
+                type: address_default
+                label: above
+                settings: {  }
+                third_party_settings: {  }
+            weight: 0
+            additional: {  }
+        third_party_settings: {  }
+_core:
+  default_config_hash: TXXGt2nhVIkNciw-z_ybNwsIZnsyMLKvqUFjsZFUmwI
+id: commerce_store.online.default
+targetEntityType: commerce_store
+bundle: online
+mode: default
+content:
+  address:
+    type: address_default
+    label: above
+    settings: {  }
+    third_party_settings: {  }
+    weight: 1
+    region: content
+hidden:
+  billing_countries: true
+  created: true
+  default_currency: true
+  is_default: true
+  mail: true
+  name: true
+  prices_include_tax: true
+  tax_registrations: true
+  timezone: true
+  uid: true

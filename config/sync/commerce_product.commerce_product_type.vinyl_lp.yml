@@ -1,0 +1,14 @@
+uuid: 5e8f0cb1-116a-450c-8c5c-eb695e77541d
+langcode: en
+status: true
+dependencies: {  }
+id: vinyl_lp
+label: 'Vinyl Lp'
+traits: {  }
+locked: false
+description: ''
+variationType: vinyl_lp
+variationTypes:
+  - vinyl_lp
+multipleVariations: true
+injectVariationFields: true

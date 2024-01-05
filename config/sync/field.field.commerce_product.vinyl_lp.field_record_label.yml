@@ -1,0 +1,22 @@
+uuid: cf4ddad4-293d-40c0-a69b-59898516318c
+langcode: en
+status: true
+dependencies:
+  config:
+    - commerce_product.commerce_product_type.vinyl_lp
+    - field.storage.commerce_product.field_record_label
+  module:
+    - text
+id: commerce_product.vinyl_lp.field_record_label
+field_name: field_record_label
+entity_type: commerce_product
+bundle: vinyl_lp
+label: 'Record Label'
+description: ''
+required: true
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  allowed_formats: {  }
+field_type: text

@@ -1,0 +1,20 @@
+uuid: 8a0aa978-70a4-4673-ad77-2521b646f302
+langcode: en
+status: true
+dependencies:
+  module:
+    - commerce_product
+    - text
+id: commerce_product.field_artist
+field_name: field_artist
+entity_type: commerce_product
+type: text
+settings:
+  max_length: 255
+module: text
+locked: false
+cardinality: -1
+translatable: true
+indexes: {  }
+persist_with_no_fields: false
+custom_storage: false

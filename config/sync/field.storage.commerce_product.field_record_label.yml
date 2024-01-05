@@ -1,0 +1,20 @@
+uuid: d706b82e-431f-4432-8b3e-3ef9f925c020
+langcode: en
+status: true
+dependencies:
+  module:
+    - commerce_product
+    - text
+id: commerce_product.field_record_label
+field_name: field_record_label
+entity_type: commerce_product
+type: text
+settings:
+  max_length: 255
+module: text
+locked: false
+cardinality: 1
+translatable: true
+indexes: {  }
+persist_with_no_fields: false
+custom_storage: false

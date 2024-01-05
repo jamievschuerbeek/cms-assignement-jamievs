@@ -43,3 +43,4 @@ sites/simpletest
 
 # Mac OS X files
 .DS_Store
+/example.gitignore

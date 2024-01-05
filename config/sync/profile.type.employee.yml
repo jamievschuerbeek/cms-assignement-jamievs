@@ -1,0 +1,13 @@
+uuid: 269dbfe9-1dc6-44b5-972f-ca66837b3048
+langcode: en
+status: true
+dependencies: {  }
+id: employee
+label: Employee
+display_label: ''
+multiple: false
+registration: false
+roles:
+  authenticated: authenticated
+allow_revisions: false
+new_revision: false

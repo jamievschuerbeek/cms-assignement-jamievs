@@ -1,0 +1,11 @@
+uuid: 5f303af2-a6b9-43fd-95c0-9a1ebcd5763a
+langcode: en
+status: true
+dependencies: {  }
+id: btw
+label: BTW
+plugin: european_union_vat
+configuration:
+  display_inclusive: true
+conditions: {  }
+conditionOperator: AND

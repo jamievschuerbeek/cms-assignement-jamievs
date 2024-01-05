@@ -1,0 +1,10 @@
+uuid: ebd73ba9-e7fc-48c7-b210-743995dd4ac1
+langcode: en
+status: true
+dependencies: {  }
+id: vinyl_lp
+label: 'Vinyl Lp'
+traits: {  }
+locked: false
+orderItemType: default
+generateTitle: null
