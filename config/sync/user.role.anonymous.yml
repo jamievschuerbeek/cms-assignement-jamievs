@@ -3,8 +3,6 @@ langcode: en
 status: true
 dependencies:
   module:
-    - commerce_checkout
-    - commerce_product
     - system
 _core:
   default_config_hash: j5zLMOdJBqC0bMvSdth5UebkprJB8g_2FXHqhfpJzow
@@ -13,6 +11,4 @@ label: 'Anonymous user'
 weight: 0
 is_admin: false
 permissions:
-  - 'access checkout'
   - 'access content'
-  - 'view commerce_product'
