@@ -1,0 +1,43 @@
+uuid: 5d4fc938-8c40-4937-9834-482becb31551
+langcode: en
+status: true
+dependencies:
+  module:
+    - commerce_paypal
+id: paypal_checkout
+label: 'Paypal Checkout'
+weight: null
+plugin: paypal_checkout
+configuration:
+  display_label: PayPal
+  mode: test
+  payment_method_types:
+    - paypal_checkout
+  collect_billing_information: false
+  payment_solution: smart_payment_buttons
+  client_id: Ab4-Cj5yT65vec4X2Xc8CMdhBzEHaL3X6OJdVs4v-vRYlQk6j33l1VfLCZr3Uh_WGDQ-XP1nWpkWyI8U
+  secret: EHonNi70IXdClCUCLuEtdCVk18WkwlR_1Sg84YFe9F7e0RYr_u2M-38H40RRClLYaxbnzYi4MdLQcoLX
+  intent: capture
+  disable_funding:
+    blik: blik
+    eps: eps
+    giropay: giropay
+    mercadopago: mercadopago
+    mybank: mybank
+    p24: p24
+    sepa: sepa
+    venmo: venmo
+  disable_card:
+    discover: discover
+    jcb: jcb
+    elo: elo
+    hiper: hiper
+  shipping_preference: get_from_file
+  update_billing_profile: true
+  update_shipping_profile: true
+  style: {  }
+  enable_on_cart: true
+  webhook_id: ''
+  enable_credit_card_icons: true
+conditions: {  }
+conditionOperator: AND

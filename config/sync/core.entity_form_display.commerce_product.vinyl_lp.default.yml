@@ -12,6 +12,7 @@ dependencies:
     - field.field.commerce_product.vinyl_lp.field_tracklist
     - image.style.thumbnail
   module:
+    - commerce_product
     - field_layout
     - image
     - layout_discovery
@@ -46,7 +47,7 @@ content:
     third_party_settings: {  }
   field_genre:
     type: entity_reference_autocomplete
-    weight: 5
+    weight: 4
     region: content
     settings:
       match_operator: CONTAINS
@@ -56,7 +57,7 @@ content:
     third_party_settings: {  }
   field_lp_cover:
     type: image_image
-    weight: 7
+    weight: 6
     region: content
     settings:
       progress_indicator: throbber
@@ -64,7 +65,7 @@ content:
     third_party_settings: {  }
   field_record_label:
     type: text_textfield
-    weight: 6
+    weight: 5
     region: content
     settings:
       size: 60
@@ -72,21 +73,17 @@ content:
     third_party_settings: {  }
   field_tracklist:
     type: text_textarea
-    weight: 4
+    weight: 3
     region: content
     settings:
       rows: 5
       placeholder: ''
     third_party_settings: {  }
   stores:
-    type: entity_reference_autocomplete
-    weight: 8
+    type: options_buttons
+    weight: 7
     region: content
-    settings:
-      match_operator: CONTAINS
-      match_limit: 10
-      size: 60
-      placeholder: ''
+    settings: {  }
     third_party_settings: {  }
   title:
     type: string_textfield
@@ -96,9 +93,14 @@ content:
       size: 60
       placeholder: ''
     third_party_settings: {  }
+  variations:
+    type: commerce_product_single_variation
+    weight: 2
+    region: content
+    settings: {  }
+    third_party_settings: {  }
 hidden:
   created: true
   path: true
   status: true
   uid: true
-  variations: true

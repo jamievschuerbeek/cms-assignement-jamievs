@@ -10,5 +10,5 @@ description: ''
 variationType: vinyl_lp
 variationTypes:
   - vinyl_lp
-multipleVariations: true
+multipleVariations: false
 injectVariationFields: true
