@@ -13,7 +13,7 @@ _core:
 id: dxpr_theme_main_menu
 theme: dxpr_theme
 region: navigation_collapsible
-weight: 10
+weight: -4
 provider: null
 plugin: 'system_menu_block:main'
 settings:
@@ -22,6 +22,6 @@ settings:
   label_display: '0'
   provider: system
   level: 1
-  depth: 9
-  expand_all_items: false
+  depth: 0
+  expand_all_items: true
 visibility: {  }
