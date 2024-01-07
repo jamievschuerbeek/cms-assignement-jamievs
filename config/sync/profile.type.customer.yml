@@ -14,7 +14,8 @@ id: customer
 label: Customer
 display_label: 'Customer information'
 multiple: true
-registration: false
-roles: {  }
+registration: true
+roles:
+  authenticated: authenticated
 allow_revisions: false
 new_revision: false

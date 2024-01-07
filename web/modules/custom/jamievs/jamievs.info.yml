@@ -1,0 +1,5 @@
+name: Jamievs cookie disclaimer
+description: "a simple cookie disclaimer module"
+type: module
+core_version_requirement: ^10
+package: Jamievs

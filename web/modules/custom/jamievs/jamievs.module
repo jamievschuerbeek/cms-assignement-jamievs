@@ -1,0 +1,11 @@
+<?php
+
+use Drupal\Core\Routing\RouteMatchInterface;
+
+/**
+ * @file  This file contains all the custom hooks
+ */
+
+ function jamievs_frontpage($route_name, RouteMatchInterface $route_match){
+    return;
+ }

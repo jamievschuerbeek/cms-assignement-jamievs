@@ -1,0 +1,17 @@
+uuid: be487bf9-95ad-4234-a743-45d90074f800
+langcode: en
+status: true
+dependencies:
+  module:
+    - menu_ui
+third_party_settings:
+  menu_ui:
+    available_menus: {  }
+    parent: ''
+name: 'Frontpage info'
+type: frontpage_info
+description: ''
+help: ''
+new_revision: true
+preview_mode: 1
+display_submitted: false

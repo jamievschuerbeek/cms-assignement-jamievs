@@ -1,0 +1,17 @@
+uuid: e094da7d-6965-44b9-ab3f-8cf0e989660c
+langcode: en
+status: true
+dependencies: {  }
+third_party_settings:
+  commerce_order:
+    customer_profile_type: false
+id: content_admin
+label: 'Content admin'
+display_label: ''
+multiple: true
+registration: false
+roles:
+  authenticated: authenticated
+  content_: content_
+allow_revisions: false
+new_revision: false

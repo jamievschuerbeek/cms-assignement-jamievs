@@ -1,0 +1,95 @@
+uuid: 2f1956c7-964e-4a46-b74f-d2c65c2c025d
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.field.node.frontpage_info.body
+    - field.field.node.frontpage_info.field_picture
+    - node.type.frontpage_info
+  module:
+    - image
+    - layout_builder
+    - text
+    - user
+third_party_settings:
+  layout_builder:
+    enabled: true
+    allow_custom: false
+    sections:
+      -
+        layout_id: layout_twocol_section
+        layout_settings:
+          label: ''
+          context_mapping: {  }
+          column_widths: 50-50
+        components:
+          d64993bf-5b4a-47cf-9450-faae6cc6e493:
+            uuid: d64993bf-5b4a-47cf-9450-faae6cc6e493
+            region: first
+            configuration:
+              id: 'field_block:node:frontpage_info:field_picture'
+              label: picture
+              label_display: '0'
+              provider: layout_builder
+              context_mapping:
+                entity: layout_builder.entity
+                view_mode: view_mode
+              formatter:
+                type: image
+                label: hidden
+                settings:
+                  image_link: ''
+                  image_style: wide
+                  image_loading:
+                    attribute: lazy
+                third_party_settings: {  }
+            weight: 0
+            additional: {  }
+          e8a0d2d8-2a71-42ed-90a9-9f6a7d80ae96:
+            uuid: e8a0d2d8-2a71-42ed-90a9-9f6a7d80ae96
+            region: second
+            configuration:
+              id: 'field_block:node:frontpage_info:body'
+              label: Body
+              label_display: '0'
+              provider: layout_builder
+              context_mapping:
+                entity: layout_builder.entity
+                view_mode: view_mode
+              formatter:
+                type: text_default
+                label: hidden
+                settings: {  }
+                third_party_settings: {  }
+            weight: 0
+            additional: {  }
+        third_party_settings: {  }
+id: node.frontpage_info.default
+targetEntityType: node
+bundle: frontpage_info
+mode: default
+content:
+  body:
+    type: text_default
+    label: hidden
+    settings: {  }
+    third_party_settings: {  }
+    weight: 101
+    region: content
+  field_picture:
+    type: image
+    label: above
+    settings:
+      image_link: ''
+      image_style: ''
+      image_loading:
+        attribute: lazy
+    third_party_settings: {  }
+    weight: 102
+    region: content
+  links:
+    settings: {  }
+    third_party_settings: {  }
+    weight: 100
+    region: content
+hidden: {  }

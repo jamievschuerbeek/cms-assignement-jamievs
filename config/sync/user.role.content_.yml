@@ -1,0 +1,63 @@
+uuid: 2b0b909a-c5b9-4025-b4e7-5bc22e832028
+langcode: en
+status: true
+dependencies:
+  config:
+    - block_content.type.basic
+    - node.type.frontpage_banner
+    - node.type.frontpage_info
+    - node.type.news_article
+  module:
+    - block_content
+    - contact
+    - node
+    - path
+    - toolbar
+id: content_
+label: 'Content admin'
+weight: 3
+is_admin: null
+permissions:
+  - 'access block library'
+  - 'access content overview'
+  - 'access site-wide contact form'
+  - 'access toolbar'
+  - 'access user contact forms'
+  - 'administer contact forms'
+  - 'administer content types'
+  - 'administer nodes'
+  - 'administer url aliases'
+  - 'create basic block content'
+  - 'create frontpage_banner content'
+  - 'create frontpage_info content'
+  - 'create news_article content'
+  - 'create url aliases'
+  - 'delete all revisions'
+  - 'delete any basic block content'
+  - 'delete any basic block content revisions'
+  - 'delete any frontpage_banner content'
+  - 'delete any frontpage_info content'
+  - 'delete any news_article content'
+  - 'delete frontpage_banner revisions'
+  - 'delete frontpage_info revisions'
+  - 'delete news_article revisions'
+  - 'delete own frontpage_banner content'
+  - 'delete own frontpage_info content'
+  - 'delete own news_article content'
+  - 'edit any basic block content'
+  - 'edit any frontpage_banner content'
+  - 'edit any frontpage_info content'
+  - 'edit any news_article content'
+  - 'edit own frontpage_banner content'
+  - 'edit own frontpage_info content'
+  - 'edit own news_article content'
+  - 'revert all revisions'
+  - 'revert any basic block content revisions'
+  - 'revert frontpage_banner revisions'
+  - 'revert frontpage_info revisions'
+  - 'revert news_article revisions'
+  - 'view all revisions'
+  - 'view any basic block content history'
+  - 'view frontpage_banner revisions'
+  - 'view frontpage_info revisions'
+  - 'view news_article revisions'

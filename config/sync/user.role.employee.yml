@@ -1,9 +1,127 @@
 uuid: bbdb7e3e-b540-43f2-981d-6aa811ed8bdb
 langcode: en
 status: true
-dependencies: {  }
+dependencies:
+  config:
+    - block_content.type.basic
+    - node.type.frontpage_banner
+    - node.type.frontpage_info
+    - node.type.news_article
+    - taxonomy.vocabulary.genre
+  module:
+    - block_content
+    - commerce
+    - commerce_checkout
+    - commerce_order
+    - commerce_product
+    - commerce_promotion
+    - commerce_store
+    - commerce_tax
+    - contact
+    - node
+    - path
+    - taxonomy
+    - toolbar
 id: employee
 label: Employee
 weight: 2
 is_admin: null
-permissions: {  }
+permissions:
+  - 'access block library'
+  - 'access commerce administration pages'
+  - 'access commerce_order overview'
+  - 'access commerce_promotion overview'
+  - 'access commerce_store overview'
+  - 'access content overview'
+  - 'access site-wide contact form'
+  - 'access taxonomy overview'
+  - 'access toolbar'
+  - 'access user contact forms'
+  - 'add commerce_log commerce_order admin comment'
+  - 'administer commerce_checkout_flow'
+  - 'administer commerce_product_attribute'
+  - 'administer commerce_promotion'
+  - 'administer commerce_store'
+  - 'administer commerce_store_type'
+  - 'administer commerce_tax_type'
+  - 'administer contact forms'
+  - 'administer content types'
+  - 'administer nodes'
+  - 'administer taxonomy'
+  - 'administer url aliases'
+  - 'bulk generate commerce_promotion_coupon'
+  - 'create basic block content'
+  - 'create commerce_promotion'
+  - 'create default commerce_order'
+  - 'create default commerce_product'
+  - 'create frontpage_banner content'
+  - 'create frontpage_info content'
+  - 'create news_article content'
+  - 'create online commerce_store'
+  - 'create terms in genre'
+  - 'create url aliases'
+  - 'create vinyl_lp commerce_product'
+  - 'delete all revisions'
+  - 'delete any basic block content'
+  - 'delete any basic block content revisions'
+  - 'delete any commerce_promotion'
+  - 'delete any default commerce_product'
+  - 'delete any frontpage_banner content'
+  - 'delete any frontpage_info content'
+  - 'delete any news_article content'
+  - 'delete any online commerce_store'
+  - 'delete any vinyl_lp commerce_product'
+  - 'delete commerce_product_attribute'
+  - 'delete default commerce_order'
+  - 'delete frontpage_banner revisions'
+  - 'delete frontpage_info revisions'
+  - 'delete news_article revisions'
+  - 'delete own commerce_promotion'
+  - 'delete own default commerce_product'
+  - 'delete own frontpage_banner content'
+  - 'delete own frontpage_info content'
+  - 'delete own news_article content'
+  - 'delete own online commerce_store'
+  - 'delete own vinyl_lp commerce_product'
+  - 'delete terms in genre'
+  - 'duplicate any commerce_promotion'
+  - 'duplicate any online commerce_store'
+  - 'duplicate own commerce_promotion'
+  - 'duplicate own online commerce_store'
+  - 'edit any basic block content'
+  - 'edit any frontpage_banner content'
+  - 'edit any frontpage_info content'
+  - 'edit any news_article content'
+  - 'edit own frontpage_banner content'
+  - 'edit own frontpage_info content'
+  - 'edit own news_article content'
+  - 'edit terms in genre'
+  - 'revert all revisions'
+  - 'revert any basic block content revisions'
+  - 'revert frontpage_banner revisions'
+  - 'revert frontpage_info revisions'
+  - 'revert news_article revisions'
+  - 'update any commerce_promotion'
+  - 'update any default commerce_product'
+  - 'update any online commerce_store'
+  - 'update any vinyl_lp commerce_product'
+  - 'update commerce_product_attribute'
+  - 'update default commerce_order'
+  - 'update own commerce_promotion'
+  - 'update own default commerce_product'
+  - 'update own online commerce_store'
+  - 'update own vinyl_lp commerce_product'
+  - 'view all revisions'
+  - 'view any basic block content history'
+  - 'view commerce_order'
+  - 'view commerce_product_attribute'
+  - 'view commerce_promotion'
+  - 'view commerce_store'
+  - 'view default commerce_order'
+  - 'view default commerce_product'
+  - 'view frontpage_banner revisions'
+  - 'view frontpage_info revisions'
+  - 'view news_article revisions'
+  - 'view online commerce_store'
+  - 'view own unpublished commerce_product'
+  - 'view vinyl_lp commerce_product'

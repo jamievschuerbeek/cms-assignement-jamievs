@@ -1,0 +1,7 @@
+jamievs.content:
+  path: "/cookies"
+  defaults:
+    _controller: '\Drupal\jamievs\Controller\CookiePageController::content'
+    _title: "Cookies"
+  requirements:
+    _permission: "access content"

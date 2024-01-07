@@ -3,6 +3,7 @@ langcode: en
 status: true
 dependencies:
   module:
+    - comment
     - commerce_checkout
     - commerce_order
     - commerce_payment
@@ -16,7 +17,12 @@ weight: 1
 is_admin: false
 permissions:
   - 'access checkout'
+  - 'access comments'
   - 'access content'
+  - 'cancel account'
+  - 'change own username'
+  - 'edit own comments'
   - 'manage own commerce_payment_method'
+  - 'post comments'
   - 'view commerce_product'
   - 'view own commerce_order'

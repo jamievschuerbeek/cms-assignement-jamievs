@@ -1,6 +1,6 @@
 uuid: 8f0102e4-1f2e-4594-8a85-b6051cc6aa1f
 langcode: en
-status: true
+status: false
 dependencies:
   theme:
     - dxpr_theme
